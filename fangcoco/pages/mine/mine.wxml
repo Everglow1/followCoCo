@@ -1,0 +1,24 @@
+<view class="continer">
+ <view class="top-mode">
+  <view class='userinfo'>
+    <image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+    <label style="color:white">{{nickName}}</label>
+  </view>
+ </view>
+ <view class='go-center card-box'>
+  <view class='card-info'>
+      <view class='down-center' style='height:33.33%;border-bottom:1px solid #E3E3E3;'>
+        <i class="iconfont icon-youhuiquan" style="color:#FF9C35"></i>
+        <label bindtap="daijuan"style='font-size:15px;margin-left:15px'>我收到的代劵</label>
+      </view>
+      <view class='down-center' style='height:33.33%'> 
+        <i class="iconfont icon-shouji" style="color:#B6D9A9"></i>
+        <label style='font-size:15px;margin-left:15px'>15170022364</label>
+      </view>
+      <view class="down-center" style='height:33.33%;border-top:1px solid #E3E3E3;' bindtap='bitphone'>
+        <i class="iconfont icon-shouji" style="color:#B6D9A9"></i>
+        <label style='font-size:15px;margin-left:15px'>客服电话：123-456-7890</label>
+    </view>
+  </view>
+ </view>
+</view>

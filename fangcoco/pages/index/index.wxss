@@ -1,0 +1,68 @@
+/**index.wxss**/
+
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+/* . {
+  height: 10px;
+  width: 300px;
+  background-color: red;
+} */
+/* .weui_btn {
+  background: red;
+  height: 130px;
+  width: 200px;
+} */
+.swiper {
+  height: 380rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.btn-bar {
+  display: flex;
+  margin-top: 50px;
+}
+.btn-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn-op {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 10px;
+  color:white; 
+  padding: 5px 20px;
+  border:1px solid white;
+  width: 280px;
+  background-color: #FF9C35;
+}
+.img-box {
+  width: 90%;
+  height: 370rpx;
+}
+.ad-box {
+  margin-top: 65px;
+  width: 100%;
+  text-align: center;
+}

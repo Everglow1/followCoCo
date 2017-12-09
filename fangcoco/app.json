@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",            
+    "pages/logs/logs",              
+    "pages/order_form/order_form", 
+    "pages/mine/mine",            
+    "pages/list/list",            
+    "pages/order/order"          
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ea5504",
+    "navigationBarTitleText": "KoKo杜克",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#FF9C35",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/homepage.png",
+        "selectedIconPath": "./images/homepage_fill.png"
+      },
+      {
+        "pagePath": "pages/order_form/order_form",
+        "text": "订单",
+        "iconPath": "./images/activity.png",
+        "selectedIconPath": "./images/activity_fill.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./images/addpeople.png",
+        "selectedIconPath": "./images/addpeople_fill.png"
+      }
+    ]
+  }
+}
